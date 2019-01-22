@@ -17,10 +17,10 @@ class NavHeader extends Component{
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
                         <NavItem>
-                            <NavLink className="text-white" href="/components/">Components</NavLink>
+                            <NavLink className="text-white" href="/notes">My Notes</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="text-white" href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                            <NavLink className="text-white" href="create_note">Create Note</NavLink>
                         </NavItem>
                         </Nav>
                     </Collapse>
