@@ -18,13 +18,15 @@ class AllNotes extends Component {
         if (this.props.notes){
             return (
                 <Row>
-                    <Col sm="6">
+                    <Col sm="6" md="6">
                     <Card>
-                        <CardHeader>Header</CardHeader>
+                        <CardHeader>Note title goes here</CardHeader>
                         <CardBody> 
-                            <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-                            <Button>Go somewhere</Button>
+                            <CardText>Note text goes here</CardText>
                         </CardBody>
+                        <CardFooter>
+                            <a href="/view_note/1" className="btn btn-primary text-white">View Note</a>
+                        </CardFooter>
                     </Card>
                     </Col>
                 </Row>
